@@ -1,11 +1,9 @@
-/* Rétt hlutfall youtube > iframe  (.gluggi) 
-
-   óskuð breidd deilt í upphaflega breidd = n% 
-
-   til að finna rétta hæð : n%  * upphafleg hæð 
-*/
-
-/* föst staðsetning */
+.logo {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  
+}
 
 
 
