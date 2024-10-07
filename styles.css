@@ -1,8 +1,12 @@
+img {
+  max-width: 100%;
+}
 .logo {
   position: fixed;
   bottom: 2rem;
   right: 2rem;
-  
+  width: 3rem;
+  height: auto;
 }
 
 
@@ -36,10 +40,16 @@
   .gluggi {
     height:24.6rem; /*414px;*/ 
   }
+  .logo {
+    width: 5rem;
+  }
 }
 @media screen and (min-width:60rem){
   .gluggi {
     height:33rem; /*534px;*/ 
+  }
+  .logo {
+    display: block;
   }
 }
 @media screen and (min-width: 80rem) {
